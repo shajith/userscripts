@@ -5,7 +5,7 @@
 // @match          http://*.techmeme.com/*
 // ==/UserScript==
 
-arr = document.querySelectorAll('div.item, div.heditem');
+arr = document.querySelectorAll('div.sitems div.item, div.clus, div.heditem');
 
 for(i=0;i<arr.length;i++){
     if(arr[i].innerHTML && (arr[i].innerHTML.match(/Android|iPod|iPhone|iOS|Droid/))){
