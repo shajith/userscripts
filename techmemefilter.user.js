@@ -2,7 +2,8 @@
 // @name           Tech Meme filter
 // @namespace      bookseeker
 // @description    Remove iphone/android news from Techmeme
-// @match          http://*.techmeme.com/*
+// @match          http://techmeme.com/*
+// @match          http://www.techmeme.com/*
 // ==/UserScript==
 
 arr = document.querySelectorAll('div.sitems div.item, div.clus, div.heditem');
