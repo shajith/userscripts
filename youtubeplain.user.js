@@ -1,3 +1,11 @@
+// ==UserScript==
+// @name           Youtube Plain
+// @namespace      http://github.com/shajith
+// @description    Remove everything but title and video from youtube pages.
+// @include        http://www.youtube.com/watch/*
+// @include        http://youtube.com/watch/*
+// ==/UserScript==
+
 var _toggleCrap = function (hide) {
     arr = document.querySelectorAll('#pagetop, #pagebottom, #watch-main-container, #watch-headline-user-info')
 
