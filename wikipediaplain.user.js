@@ -3,6 +3,7 @@
 // @namespace      http://github.com/shajith
 // @description    Remove everything but content from wikipedia.
 // @include        http://en.wikipedia.org/wiki/*
+// @include        http://*.wikipedia.org/wiki/*
 // ==/UserScript==
 
 
