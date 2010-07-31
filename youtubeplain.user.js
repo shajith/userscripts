@@ -9,7 +9,7 @@
 // ==/UserScript==
 
 var _toggleCrap = function (hide) {
-    arr = document.querySelectorAll('#pagetop, #pagebottom, #watch-main-container, #watch-headline-user-info')
+    arr = document.querySelectorAll('#ticker #pagetop, #pagebottom, #watch-main-container, #watch-headline-user-info')
 
     for(i=0;i<arr.length;i++){
 	if(hide)
