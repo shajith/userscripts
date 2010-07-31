@@ -4,6 +4,8 @@
 // @description    Remove everything but title and video from youtube pages.
 // @include        http://www.youtube.com/watch/*
 // @include        http://youtube.com/watch/*
+// @include        http://www.youtube.com/watch?*
+// @include        http://youtube.com/watch?*
 // ==/UserScript==
 
 var _toggleCrap = function (hide) {
